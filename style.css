@@ -1,0 +1,101 @@
+
+
+/*1.Banner design*/
+.menu-btn {
+    position: absolute;
+    z-index: 1;
+    right: 35px;
+    top: 35px;
+    margin-top:2rem;
+    cursor: pointer;
+}
+.btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background:white;
+}
+
+.banner{
+    background-image: url(img/banner.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.brand{
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+.brand-name{
+    font-size:1rem;
+    color: white;
+    padding-top: 0.5rem;
+}
+.brand-name>h3{
+    font-weight: 400;
+}
+.brand-logo{
+    color:white;
+    margin-right: 1rem;
+}
+.sub-heading{
+    margin-top: 14rem;
+    margin-left: 3rem;
+    color:white;
+}
+.sub-heading>h6{
+    font-weight: 200;
+}
+.navigator-button{
+    margin-top: 3rem;
+}
+
+/*2.COMPANY DETAILS WITH VIDEO*/
+.showreel{
+    height: 45rem;
+    
+}
+
+.video{
+     margin-top: 7rem;
+     margin-left:0;
+     margin-right: 0rem;
+     /*box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem lightgray;*/
+     border: 2px solid white;
+     border-radius: 15px;
+     padding: 20px 45px;
+     box-shadow: 0 0 15px 15px rgba(241,241,241, 0.8);
+
+    
+}
+.company-description{
+    margin-top:12rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.company-description>h6{
+    color: grey;
+}
+.company-description>h2{
+    letter-spacing: 6px;
+    font-weight: 700;
+    font-size:x-large;
+}
+.company-description>p{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: grey;
+}
+.play>span{
+    font-weight: 300;
+    margin-left: 2.5rem;
+    color: grey;
+}
+
+.play{
+    display:flex;
+    align-items: center;
+}
