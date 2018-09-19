@@ -1,4 +1,19 @@
-
+/*Media queries*/
+@media only screen and (max-width: 992px){
+    .collage{
+        margin-top: 15rem !important;
+        
+    }
+    .company-description{
+        margin-top: 1rem !important;
+    }
+    }
+   
+    @media only screen and (min-width: 768px) {
+        
+    }
+    body {
+        font-family: 'Montserrat', sans-serif; }
 
 /*1.Banner design*/
 .menu-btn {
@@ -49,7 +64,10 @@
 .sub-heading>h6{
     font-weight: 200;
 }
-.navigator-button{
+.sub-heading>h1{
+    font-weight: 900;
+}
+.navigator-button-1{
     margin-top: 3rem;
 }
 
@@ -98,4 +116,51 @@
 .play{
     display:flex;
     align-items: center;
+}
+
+/*3.COLLAGE*/
+.collage{
+    overflow: hidden;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*4.EXPERTISE*/
+.technologies{
+    height: 40rem;
+}
+.good-things-1{
+   margin-top: 10rem; 
+}
+.good-things-2{
+    margin-top: 6rem;
+}
+.good-things-title{
+    margin-left: 3rem;
+}
+.good-things-title>h3{
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+}
+.good-things-title>h6{
+    color: grey;
+    font-size: ;
+}
+.retina-display>p,.industrial-design>p,.video-tutorial>p,.save-time>p{
+    color:grey;
+}
+.retina-display,.industrial-design,.video-tutorial,.save-time{
+    padding-left: 4rem;
+}
+.retina-display>i,.industrial-design>i,.video-tutorial>i,.save-time>i{
+    color:lightgrey;
+    margin-bottom: 2rem;
+}
+.retina-display>h6,.industrial-design>h6,.video-tutorial>h6,.save-time>h6{
+font-size: 9pt;
+font-weight:bolder;
+color: black;
+letter-spacing: 0.2rem;
+
 }
