@@ -145,7 +145,7 @@
 }
 .good-things-title>h6{
     color: grey;
-    font-size: ;
+    font-size:8pt ;
 }
 .retina-display>p,.industrial-design>p,.video-tutorial>p,.save-time>p{
     color:grey;
@@ -163,4 +163,9 @@ font-weight:bolder;
 color: black;
 letter-spacing: 0.2rem;
 
+}
+/*Clients*/
+.clients{
+    background-color: black;
+    height: 25rem;
 }
