@@ -7,11 +7,48 @@
     .company-description{
         margin-top: 1rem !important;
     }
+    .clients{
+        margin-top: 30rem;
+    }
+    .get-started{
+        height: 22rem !important;
+    }
+    .start-button{
+        margin-left: 2rem !important;
+        margin-top: 3rem !important;
+    }
+    .d1,.d2,.d3{
+        width:15rem !important;
+    }
     }
    
-    @media only screen and (min-width: 768px) {
-        
-    }
+    @media only screen and (max-width: 768px) {
+        .clients{
+            margin-top: 30rem;
+        }
+        .cm-images>img{
+            width:50%;
+        }
+        .frame{
+            width: 100%;
+        }
+        .d1,.d2,.d3{
+            width:25rem !important;
+        }
+        .a-4>p{
+            padding-left:0 !important;
+        }
+        }
+    
+    @media only screen and (max-width: 500px) {
+        .clients{
+            margin-top: 40rem;
+        }
+        .d1,.d2,.d3{
+            width:20rem !important;
+        }
+        }
+    
     body {
         font-family: 'Montserrat', sans-serif; }
 
@@ -164,8 +201,231 @@ color: black;
 letter-spacing: 0.2rem;
 
 }
-/*Clients*/
+/*5.Clients*/
 .clients{
     background-color: black;
     height: 25rem;
+}
+.client-logo{
+    color: lightgrey;
+    padding-top: 6rem;
+
+}
+.navigator-button-2{
+    color: lightgrey;
+    padding-top: 12rem;
+}
+
+/*6.Priorities*/
+.priorities{
+    margin-top: 12rem;
+    height: 18rem;
+    width: auto;
+    margin-bottom:10rem;
+}
+.p1{
+padding-left: 2rem;
+padding-right: 4rem;
+padding-top: 2rem;
+background-color:#f1f1f1;
+}
+
+.p2{
+    padding-left: 2rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    background-color: #dbdbdb;
+}
+
+.p1>h6,.p2>h6{
+    font-size: 0.8rem;
+}
+.p1>h3,.p2>h3{
+    font-weight: 900;
+    font-size: 1.3rem;
+    letter-spacing: 0.3rem;
+}
+
+/*7.GET STARTED*/
+.get-started{
+    height: 15rem;
+    background-color: black;
+    
+}
+.claim>h4{
+    margin-top: 6rem;
+    font-weight: bolder;
+    color: white;
+}
+.start-button{
+    margin-top: 5rem;
+    height:4rem;
+    width: 10rem;
+    margin-left: 5rem;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+    margin-left: 9rem;
+    border: 1px solid white;
+}
+.start{
+    height:15rem;
+}
+.start-button>h6{
+    padding-top:1.5rem;
+    padding-left: 2rem;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+
+    
+}
+.start-button:hover{
+    background-color: white;
+    border: 1px solid black;
+    
+}
+.start-button:hover h6{
+    color:black;
+}
+
+/*8.CREATIVE MAKERS*******************************************************************************/
+/******************************************************************************************************/
+
+.cm-images{
+    margin-top: 5rem;
+    
+}
+.creative-makers>h3{
+    margin-top: 8rem;
+    margin-left: 4rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+}
+/*9.SOCIAL-MEDIA**************************************************************************************/
+/******************************************************************************************************/
+
+.social-media{
+    height: 15rem;
+}
+.social-media>h6{
+    margin-top: 6rem;
+    font-weight: bolder;
+    letter-spacing:0.2rem;
+    font-size: 0.9rem;
+}
+/*10.MAP AND MESSAGE FORM**************************************************************************************/
+/******************************************************************************************************/
+.message{
+    background-color: #f1f1f1;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+
+}
+.frame{
+    height: 100%;
+    width:100%;
+}
+.contact-us{
+    height:40rem;
+}
+.map-message{
+    height:33rem;
+}
+.message-box{
+padding:0;
+}
+.map{
+    padding:0;
+}
+
+.name{
+    padding-top: 7rem;
+    padding-left: 5rem;
+}
+.email{
+    padding-top: 2rem;
+    padding-left: 5rem;
+}
+.your-message{
+    padding-top: 2rem;
+    padding-left: 5rem;
+}
+
+.d3{
+    height:5rem;
+    width: 25rem;
+    border: 1px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #f1f1f1;
+    font-size: 0.8rem;
+   padding-bottom:2rem;    
+}
+.d1,.d2{
+    width: 25rem;
+    border:1px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #f1f1f1;
+    font-size: 0.8rem;
+    padding-bottom: 0.7rem;
+}
+.send-message{
+    height:4rem;
+    width: 10rem;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+.send-message>h6{
+    padding-top:1.5rem;
+    padding-left: 2rem;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+
+    
+}
+.send-message:hover{
+    background-color: white;
+    border: 1px solid black;
+    
+}
+.send-message:hover h6{
+    color:black;
+}
+
+/*10.MAP AND MESSAGE FORM**************************************************************************************/
+/******************************************************************************************************/
+
+.address{
+    height:20rem;
+}
+.a-1>h3{
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+}
+.a-2>h4,.a-3>h4{
+    font-size:0.8rem;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+.a-2>p,.a-3>p{
+    font-size:0.8rem;
+    color:gray;
+}
+.a-4>p{
+    color: grey;
+    padding-left: 5rem;
+}
+.a-3>span{
+    padding-left: 1rem;
+    color:palevioletred;
 }
