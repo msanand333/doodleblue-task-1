@@ -20,6 +20,16 @@
     .d1,.d2,.d3{
         width:15rem !important;
     }
+    .menu-btn{
+        margin-top: 5rem !important;
+    }
+    .brand{
+        margin-top: 5rem !important;
+        margin-left: 3rem !important;
+    }
+    .sub-heading{
+        margin-top: 15rem !important;
+    }
     }
    
     @media only screen and (max-width: 768px) {
@@ -38,6 +48,10 @@
         .a-4>p{
             padding-left:0 !important;
         }
+        .sub-heading{
+            margin-top: 12rem !important;
+            margin-left: 10rem !important;
+        }
         }
     
     @media only screen and (max-width: 500px) {
@@ -53,12 +67,16 @@
         font-family: 'Montserrat', sans-serif; }
 
 /*1.Banner design*/
+header{
+    height: 35rem;
+}
 .menu-btn {
-    position: absolute;
+   /* position: absolute;*/
     z-index: 1;
     right: 35px;
     top: 35px;
-    margin-top:2rem;
+    margin-top:9rem;
+    margin-right: 3rem;
     cursor: pointer;
 }
 .btn-line {
@@ -69,40 +87,62 @@
 }
 
 .banner{
-    background-image: url(img/banner.jpg);
-    height: 40rem;
-    background-size: cover;
-    background-position: center;
+    /*background-image: url(img/banner.jpg);*/
+   /* height: 40rem;
+   /* background-size: cover;
+    /*background-position: center;*/
+    position: absolute;
     overflow: hidden;
 }
 
+
 .brand{
-    margin-top: 3rem;
-    margin-left: 4rem;
+    margin-top: 9rem;
+    margin-left: 5rem;
+    z-index: 3;
+
 }
 
 .brand-name{
     font-size:1rem;
     color: white;
     padding-top: 0.5rem;
+    position: absolute;
+    margin-left: 4rem;
+    
 }
 .brand-name>h3{
     font-weight: 400;
+    position: absolute;
 }
 .brand-logo{
     color:white;
     margin-right: 1rem;
+    position: absolute;
 }
 .sub-heading{
+    position: absolute;
     margin-top: 14rem;
-    margin-left: 3rem;
+    
     color:white;
+    margin-top: 0;
+    height: 3rem;
+    
+    z-index: 3;
+    margin-top: 28rem;
+    margin-left: 8rem;
 }
 .sub-heading>h6{
+    position: absolute;
     font-weight: 200;
+    margin-left: 0.2rem;
+    
 }
 .sub-heading>h1{
+    position: absolute;
     font-weight: 900;
+    margin-top: 1rem;
+   
 }
 .navigator-button-1{
     margin-top: 3rem;
