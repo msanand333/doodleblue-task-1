@@ -21,7 +21,7 @@
         width:15rem !important;
     }
     .menu-btn{
-        margin-top: 5rem !important;
+        margin-top: 6rem !important;
     }
     .brand{
         margin-top: 5rem !important;
@@ -52,6 +52,14 @@
             margin-top: 12rem !important;
             margin-left: 10rem !important;
         }
+        .brand{
+            margin-top: 2rem !important;
+            margin-left: 2rem !important;
+        }
+        .menu-btn{
+            margin-top: 3rem !important;
+            margin-left: 2rem !important;
+        }
         }
     
     @media only screen and (max-width: 500px) {
@@ -61,21 +69,36 @@
         .d1,.d2,.d3{
             width:20rem !important;
         }
+        .brand{
+            margin-top: 2rem !important;
+            margin-left: 2rem !important;
         }
+        .menu-btn{
+            margin-top: 3rem !important;
+            margin-left: 2rem !important;
+        }
+        .sub-heading{
+            margin-top: 8rem !important;
+            margin-left: 5rem !important;
+        }
+        }
+        
     
     body {
-        font-family: 'Montserrat', sans-serif; }
+        font-family: 'Montserrat', sans-serif; 
+    }
 
 /*1.Banner design*/
 header{
     height: 35rem;
 }
+
 .menu-btn {
    /* position: absolute;*/
     z-index: 1;
     right: 35px;
     top: 35px;
-    margin-top:9rem;
+    margin-top:6rem;
     margin-right: 3rem;
     cursor: pointer;
 }
@@ -86,6 +109,7 @@ header{
     background:white;
 }
 
+
 .banner{
     /*background-image: url(img/banner.jpg);*/
    /* height: 40rem;
@@ -93,11 +117,12 @@ header{
     /*background-position: center;*/
     position: absolute;
     overflow: hidden;
+    
 }
 
 
 .brand{
-    margin-top: 9rem;
+    margin-top: 5rem;
     margin-left: 5rem;
     z-index: 3;
 
@@ -129,7 +154,7 @@ header{
     height: 3rem;
     
     z-index: 3;
-    margin-top: 28rem;
+    margin-top: 23rem;
     margin-left: 8rem;
 }
 .sub-heading>h6{
@@ -140,7 +165,7 @@ header{
 }
 .sub-heading>h1{
     position: absolute;
-    font-weight: 900;
+    font-weight: 800;
     margin-top: 1rem;
    
 }
@@ -341,6 +366,7 @@ background-color:#f1f1f1;
     font-size: 1.5rem;
     font-weight: 900;
     letter-spacing: 0.5rem;
+    width: 100%;
 }
 /*9.SOCIAL-MEDIA**************************************************************************************/
 /******************************************************************************************************/
