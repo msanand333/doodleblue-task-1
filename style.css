@@ -1,497 +1,511 @@
-/*Media queries*/
-@media only screen and (max-width: 992px){
-    .collage{
-        margin-top: 15rem !important;
-        
-    }
-    .company-description{
-        margin-top: 1rem !important;
-    }
-    .clients{
-        margin-top: 30rem;
-    }
-    .get-started{
-        height: 22rem !important;
-    }
-    .start-button{
-        margin-left: 2rem !important;
-        margin-top: 3rem !important;
-    }
-    .d1,.d2,.d3{
-        width:15rem !important;
-    }
-    .menu-btn{
-        margin-top: 6rem !important;
-    }
-    .brand{
-        margin-top: 5rem !important;
-        margin-left: 3rem !important;
-    }
-    .sub-heading{
-        margin-top: 15rem !important;
-    }
-    }
-   
-    @media only screen and (max-width: 768px) {
-        .clients{
-            margin-top: 30rem;
-        }
-        .cm-images>img{
-            width:50%;
-        }
-        .frame{
-            width: 100%;
-        }
-        .d1,.d2,.d3{
-            width:25rem !important;
-        }
-        .a-4>p{
-            padding-left:0 !important;
-        }
-        .sub-heading{
-            margin-top: 12rem !important;
-            margin-left: 10rem !important;
-        }
-        .brand{
-            margin-top: 2rem !important;
-            margin-left: 2rem !important;
-        }
-        .menu-btn{
-            margin-top: 3rem !important;
-            margin-left: 2rem !important;
-        }
-        }
-    
-    @media only screen and (max-width: 500px) {
-        .clients{
-            margin-top: 40rem;
-        }
-        .d1,.d2,.d3{
-            width:20rem !important;
-        }
-        .brand{
-            margin-top: 2rem !important;
-            margin-left: 2rem !important;
-        }
-        .menu-btn{
-            margin-top: 3rem !important;
-            margin-left: 2rem !important;
-        }
-        .sub-heading{
-            margin-top: 8rem !important;
-            margin-left: 5rem !important;
-        }
-        }
-        
-    
-    body {
-        font-family: 'Montserrat', sans-serif; 
-    }
 
-/*1.Banner design*/
-header{
-    height: 35rem;
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*1.Banner design**************************************************************************************************/
+/***********************************************************************************************/
+header {
+  height: 35rem;
 }
 
 .menu-btn {
-   /* position: absolute;*/
-    z-index: 1;
-    right: 35px;
-    top: 35px;
-    margin-top:6rem;
-    margin-right: 3rem;
-    cursor: pointer;
+  /* position: absolute;*/
+  z-index: 1;
+  right: 35px;
+  top: 35px;
+  margin-top: 6rem;
+  margin-right: 3rem;
+  cursor: pointer;
 }
 .btn-line {
-    width: 28px;
-    height: 3px;
-    margin: 0 0 5px 0;
-    background:white;
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: white;
 }
 
-
-.banner{
-    /*background-image: url(img/banner.jpg);*/
-   /* height: 40rem;
+.banner {
+  /*background-image: url(img/banner.jpg);*/
+  /* height: 40rem;
    /* background-size: cover;
     /*background-position: center;*/
-    position: absolute;
-    overflow: hidden;
-    
+  position: absolute;
+  overflow: hidden;
 }
 
-
-.brand{
-    margin-top: 5rem;
-    margin-left: 5rem;
-    z-index: 3;
-
+.brand {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  z-index: 3;
 }
 
-.brand-name{
-    font-size:1rem;
-    color: white;
-    padding-top: 0.5rem;
-    position: absolute;
-    margin-left: 4rem;
-    
+.brand-name {
+  font-size: 1rem;
+  color: white;
+  padding-top: 0.5rem;
+  position: absolute;
+  margin-left: 4rem;
 }
-.brand-name>h3{
-    font-weight: 400;
-    position: absolute;
+.brand-name > h3 {
+  font-weight: 400;
+  position: absolute;
 }
-.brand-logo{
-    color:white;
-    margin-right: 1rem;
-    position: absolute;
+.brand-logo {
+  color: white;
+  margin-right: 1rem;
+  position: absolute;
 }
-.sub-heading{
-    position: absolute;
-    margin-top: 14rem;
-    
-    color:white;
-    margin-top: 0;
-    height: 3rem;
-    
-    z-index: 3;
-    margin-top: 23rem;
-    margin-left: 8rem;
+.sub-heading {
+  position: absolute;
+  margin-top: 14rem;
+
+  color: white;
+  margin-top: 0;
+  height: 3rem;
+
+  z-index: 3;
+  margin-top: 23rem;
+  margin-left: 8rem;
 }
-.sub-heading>h6{
-    position: absolute;
-    font-weight: 200;
-    margin-left: 0.2rem;
-    
+.sub-heading > h6 {
+  position: absolute;
+  font-weight: 200;
+  margin-left: 0.2rem;
 }
-.sub-heading>h1{
-    position: absolute;
-    font-weight: 800;
-    margin-top: 1rem;
-   
+.sub-heading > h1 {
+  position: absolute;
+  font-weight: 800;
+  margin-top: 1rem;
 }
-.navigator-button-1{
-    margin-top: 3rem;
+.navigator-button-1 {
+  margin-top: 3rem;
 }
 
-/*2.COMPANY DETAILS WITH VIDEO*/
-.showreel{
-    height: 45rem;
-    
+/*2.COMPANY DETAILS WITH VIDEO**************************************************************************************************/
+/***********************************************************************************************/
+.showreel {
+  height: 45rem;
 }
 
-.video{
-     margin-top: 7rem;
-     margin-left:0;
-     margin-right: 0rem;
-     /*box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem lightgray;*/
-     border: 2px solid white;
-     border-radius: 15px;
-     padding: 20px 45px;
-     box-shadow: 0 0 15px 15px rgba(241,241,241, 0.8);
-
-    
+.video {
+  margin-top: 7rem;
+  margin-left: 0;
+  margin-right: 0rem;
+  /*box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem lightgray;*/
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 20px 45px;
+  box-shadow: 0 0 15px 15px rgba(241, 241, 241, 0.8);
 }
-.company-description{
-    margin-top:12rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+.company-description {
+  margin-top: 12rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
-.company-description>h6{
-    color: grey;
+.company-description > h6 {
+  color: grey;
 }
-.company-description>h2{
-    letter-spacing: 6px;
-    font-weight: 700;
-    font-size:x-large;
+.company-description > h2 {
+  letter-spacing: 6px;
+  font-weight: 700;
+  font-size: x-large;
 }
-.company-description>p{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    color: grey;
+.company-description > p {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: grey;
 }
-.play>span{
-    font-weight: 300;
-    margin-left: 2.5rem;
-    color: grey;
+.play > span {
+  font-weight: 300;
+  margin-left: 2.5rem;
+  color: grey;
 }
 
-.play{
-    display:flex;
-    align-items: center;
+.play {
+  display: flex;
+  align-items: center;
 }
 
-/*3.COLLAGE*/
-.collage{
-    overflow: hidden;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+/*3.COLLAGE**************************************************************************************************/
+/***********************************************************************************************/
+.collage {
+  overflow: hidden;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-/*4.EXPERTISE*/
-.technologies{
-    height: 40rem;
+/*4.EXPERTISE**************************************************************************************************/
+/***********************************************************************************************/
+.technologies {
+  height: 40rem;
 }
-.good-things-1{
-   margin-top: 10rem; 
+.good-things-1 {
+  margin-top: 10rem;
 }
-.good-things-2{
-    margin-top: 6rem;
+.good-things-2 {
+  margin-top: 6rem;
 }
-.good-things-title{
-    margin-left: 3rem;
+.good-things-title {
+  margin-left: 3rem;
 }
-.good-things-title>h3{
-    font-weight: 900;
-    letter-spacing: 0.5rem;
+.good-things-title > h3 {
+  font-weight: 900;
+  letter-spacing: 0.5rem;
 }
-.good-things-title>h6{
-    color: grey;
-    font-size:8pt ;
+.good-things-title > h6 {
+  color: grey;
+  font-size: 8pt;
 }
-.retina-display>p,.industrial-design>p,.video-tutorial>p,.save-time>p{
-    color:grey;
+.retina-display > p,
+.industrial-design > p,
+.video-tutorial > p,
+.save-time > p {
+  color: grey;
 }
-.retina-display,.industrial-design,.video-tutorial,.save-time{
-    padding-left: 4rem;
+.retina-display,
+.industrial-design,
+.video-tutorial,
+.save-time {
+  padding-left: 4rem;
 }
-.retina-display>i,.industrial-design>i,.video-tutorial>i,.save-time>i{
-    color:lightgrey;
-    margin-bottom: 2rem;
+.retina-display > i,
+.industrial-design > i,
+.video-tutorial > i,
+.save-time > i {
+  color: lightgrey;
+  margin-bottom: 2rem;
 }
-.retina-display>h6,.industrial-design>h6,.video-tutorial>h6,.save-time>h6{
-font-size: 9pt;
-font-weight:bolder;
-color: black;
-letter-spacing: 0.2rem;
-
+.retina-display > h6,
+.industrial-design > h6,
+.video-tutorial > h6,
+.save-time > h6 {
+  font-size: 9pt;
+  font-weight: bolder;
+  color: black;
+  letter-spacing: 0.2rem;
 }
-/*5.Clients*/
-.clients{
-    background-color: black;
-    height: 25rem;
+/*5.Clients**************************************************************************************************/
+/***********************************************************************************************/
+.clients {
+  background-color: black;
+  height: 15rem;
 }
-.client-logo{
-    color: lightgrey;
-    padding-top: 6rem;
-
+.client-logo {
+  color: lightgrey;
+  padding-top: 6rem;
 }
-.navigator-button-2{
-    color: lightgrey;
-    padding-top: 12rem;
+.navigator-button-2 {
+  background: black;
+  height: 10rem;
 }
-
-/*6.Priorities*/
-.priorities{
-    margin-top: 12rem;
-    height: 18rem;
-    width: auto;
-    margin-bottom:10rem;
-}
-.p1{
-padding-left: 2rem;
-padding-right: 4rem;
-padding-top: 2rem;
-background-color:#f1f1f1;
-}
-
-.p2{
-    padding-left: 2rem;
-    padding-right: 4rem;
-    padding-top: 2rem;
-    background-color: #dbdbdb;
+.testimony {
+  height: 10rem;
 }
 
-.p1>h6,.p2>h6{
-    font-size: 0.8rem;
+/*6.Priorities**************************************************************************************************/
+/***********************************************************************************************/
+.priorities {
+  margin-top: 12rem;
+  height: 18rem;
+  width: auto;
+  margin-bottom: 10rem;
 }
-.p1>h3,.p2>h3{
-    font-weight: 900;
-    font-size: 1.3rem;
-    letter-spacing: 0.3rem;
+.p1 {
+  padding-left: 2rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
+  background-color: #f1f1f1;
 }
 
-/*7.GET STARTED*/
-.get-started{
-    height: 15rem;
-    background-color: black;
-    
+.p2 {
+  padding-left: 2rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
+  background-color: #dbdbdb;
 }
-.claim>h4{
-    margin-top: 6rem;
-    font-weight: bolder;
-    color: white;
-}
-.start-button{
-    margin-top: 5rem;
-    height:4rem;
-    width: 10rem;
-    margin-left: 5rem;
-    justify-content: center;
-    margin-bottom: 2.5rem;
-    margin-left: 9rem;
-    border: 1px solid white;
-}
-.start{
-    height:15rem;
-}
-.start-button>h6{
-    padding-top:1.5rem;
-    padding-left: 2rem;
-    color: white;
-    font-size: 0.7rem;
-    font-weight: 700;
 
-    
+.p1 > h6,
+.p2 > h6 {
+  font-size: 0.8rem;
 }
-.start-button:hover{
-    background-color: white;
-    border: 1px solid black;
-    
+.p1 > h3,
+.p2 > h3 {
+  font-weight: 900;
+  font-size: 1.3rem;
+  letter-spacing: 0.3rem;
 }
-.start-button:hover h6{
-    color:black;
+
+/*7.GET STARTED*************************************************************************************************/
+/***********************************************************************************************/
+.get-started {
+  height: 15rem;
+  background-color: black;
+}
+.claim > h4 {
+  margin-top: 6rem;
+  font-weight: bolder;
+  color: white;
+}
+.start-button {
+  margin-top: 5rem;
+  height: 4rem;
+  width: 10rem;
+  margin-left: 5rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+  margin-left: 9rem;
+  border: 1px solid white;
+}
+.start {
+  height: 15rem;
+}
+.start-button > h6 {
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+.start-button:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+.start-button:hover h6 {
+  color: black;
 }
 
 /*8.CREATIVE MAKERS*******************************************************************************/
 /******************************************************************************************************/
 
-.cm-images{
-    margin-top: 5rem;
-    
+.cm-images {
+  margin-top: 5rem;
 }
-.creative-makers>h3{
-    margin-top: 8rem;
-    margin-left: 4rem;
-    font-size: 1.5rem;
-    font-weight: 900;
-    letter-spacing: 0.5rem;
-    width: 100%;
+.creative-makers > h3 {
+  margin-top: 8rem;
+  margin-left: 4rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  width: 100%;
 }
 /*9.SOCIAL-MEDIA**************************************************************************************/
 /******************************************************************************************************/
 
-.social-media{
-    height: 15rem;
+.social-media {
+  height: 15rem;
 }
-.social-media>h6{
-    margin-top: 6rem;
-    font-weight: bolder;
-    letter-spacing:0.2rem;
-    font-size: 0.9rem;
+.social-media > h6 {
+  margin-top: 6rem;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+  font-size: 0.9rem;
 }
 /*10.MAP AND MESSAGE FORM**************************************************************************************/
 /******************************************************************************************************/
-.message{
-    background-color: #f1f1f1;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-
+.message {
+  background-color: #f1f1f1;
+  height: 100%;
+  width: 100%;
+  align-items: center;
 }
-.frame{
-    height: 100%;
-    width:100%;
+.frame {
+  height: 100%;
+  width: 100%;
 }
-.contact-us{
-    height:40rem;
+.contact-us {
+  height: 40rem;
 }
-.map-message{
-    height:33rem;
+.map-message {
+  height: 33rem;
 }
-.message-box{
-padding:0;
+.message-box {
+  padding: 0;
 }
-.map{
-    padding:0;
-}
-
-.name{
-    padding-top: 7rem;
-    padding-left: 5rem;
-}
-.email{
-    padding-top: 2rem;
-    padding-left: 5rem;
-}
-.your-message{
-    padding-top: 2rem;
-    padding-left: 5rem;
+.map {
+  padding: 0;
 }
 
-.d3{
-    height:5rem;
-    width: 25rem;
-    border: 1px solid grey;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    background-color: #f1f1f1;
-    font-size: 0.8rem;
-   padding-bottom:2rem;    
+.name {
+  padding-top: 7rem;
+  padding-left: 5rem;
 }
-.d1,.d2{
-    width: 25rem;
-    border:1px solid grey;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    background-color: #f1f1f1;
-    font-size: 0.8rem;
-    padding-bottom: 0.7rem;
+.email {
+  padding-top: 2rem;
+  padding-left: 5rem;
 }
-.send-message{
-    height:4rem;
-    width: 10rem;
-    background-color: black;
-    color: white;
-    justify-content: center;
-    margin-left: 5rem;
-    margin-top: 4rem;
+.your-message {
+  padding-top: 2rem;
+  padding-left: 5rem;
 }
-.send-message>h6{
-    padding-top:1.5rem;
-    padding-left: 2rem;
-    color: white;
-    font-size: 0.7rem;
-    font-weight: 700;
 
-    
+.d3 {
+  height: 5rem;
+  width: 25rem;
+  border: 1px solid grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #f1f1f1;
+  font-size: 0.8rem;
+  padding-bottom: 2rem;
 }
-.send-message:hover{
-    background-color: white;
-    border: 1px solid black;
-    
+.d1,
+.d2 {
+  width: 25rem;
+  border: 1px solid grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #f1f1f1;
+  font-size: 0.8rem;
+  padding-bottom: 0.7rem;
 }
-.send-message:hover h6{
-    color:black;
+.send-message {
+  height: 4rem;
+  width: 10rem;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  margin-left: 5rem;
+  margin-top: 4rem;
+}
+.send-message > h6 {
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+.send-message:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+.send-message:hover h6 {
+  color: black;
 }
 
 /*10.MAP AND MESSAGE FORM**************************************************************************************/
 /******************************************************************************************************/
 
-.address{
-    height:20rem;
+.address {
+  height: 20rem;
 }
-.a-1>h3{
-    font-size: 1.5rem;
-    letter-spacing: 0.2rem;
-    font-weight: 500;
+.a-1 > h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 500;
 }
-.a-2>h4,.a-3>h4{
-    font-size:0.8rem;
-    margin-bottom: 2rem;
-    margin-top: 0.5rem;
+.a-2 > h4,
+.a-3 > h4 {
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
 }
-.a-2>p,.a-3>p{
-    font-size:0.8rem;
-    color:gray;
+.a-2 > p,
+.a-3 > p {
+  font-size: 0.8rem;
+  color: gray;
 }
-.a-4>p{
-    color: grey;
-    padding-left: 5rem;
+.a-4 > p {
+  color: grey;
+  padding-left: 5rem;
 }
-.a-3>span{
-    padding-left: 1rem;
-    color:palevioletred;
+.a-3 > span {
+  padding-left: 1rem;
+  color: palevioletred;
 }
+
+
+/*Media queries*************************************************************************************************
+***************************************************************************************************************/
+@media only screen and (max-width: 992px) {
+    .collage {
+      margin-top: 15rem !important;
+    }
+    .company-description {
+      margin-top: 1rem !important;
+    }
+    .clients {
+      margin-top: 30rem;
+    }
+    .get-started {
+      height: 22rem !important;
+    }
+    .start-button {
+      margin-left: 2rem !important;
+      margin-top: 3rem !important;
+    }
+    .d1,
+    .d2,
+    .d3 {
+      width: 15rem !important;
+    }
+    .menu-btn {
+      margin-top: 6rem !important;
+    }
+    .brand {
+      margin-top: 5rem !important;
+      margin-left: 3rem !important;
+    }
+    .sub-heading {
+      margin-top: 15rem !important;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .clients {
+      margin-top: 30rem;
+    }
+    .cm-images > img {
+      width: 50%;
+    }
+    .frame {
+      width: 100%;
+    }
+    .d1,
+    .d2,
+    .d3 {
+      width: 25rem !important;
+    }
+    .a-4 > p {
+      padding-left: 0 !important;
+    }
+    .sub-heading {
+      margin-top: 12rem !important;
+      margin-left: 10rem !important;
+    }
+    .brand {
+      margin-top: 2rem !important;
+      margin-left: 2rem !important;
+    }
+    .menu-btn {
+      margin-top: 3rem !important;
+      margin-left: 2rem !important;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .clients {
+      margin-top: 40rem;
+    }
+    .d1,
+    .d2,
+    .d3 {
+      width: 20rem !important;
+    }
+    .brand {
+      margin-top: 2rem !important;
+      margin-left: 2rem !important;
+    }
+    .menu-btn {
+      margin-top: 3rem !important;
+      margin-left: 2rem !important;
+    }
+    .sub-heading {
+      margin-top: 8rem !important;
+      margin-left: 5rem !important;
+    }
+  }
